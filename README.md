@@ -90,7 +90,7 @@ fajlova. Bitan fajl nam je `handshake-01.cap` od njega pravimo fajl koji
 `hashcat` moze da procita komandom\
 `aircrack-ng -j handshake-01 handshake-01.cap` Sada imamo `handshake-01.hccapx` njega
 razbijamo uz pomoc `hashcat`-a komandom\
-`hashcat -m 2500 handshake-01.hccpx recnik.txt`
+`hashcat -m 2500 handshake-01.hccapx recnik.txt`
 
 Informacije za dalje
 ====================
